@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Temp uploads and outputs (user files, not for repo)
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
